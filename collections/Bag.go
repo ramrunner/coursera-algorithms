@@ -7,6 +7,7 @@ type slicebag struct {
 }
 
 type Bag interface {
+	Iterable
 	Add(a interface{})
 	IsEmpty() bool
 	Size() int
